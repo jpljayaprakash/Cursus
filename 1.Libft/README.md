@@ -4,6 +4,8 @@ Re-create some standard C library functions including some additional ones that 
 1.  **Libc Functions:** Some of the standard C functions
 2.  **Additional functions:** Functions that will be useful for later projects
 
+# 1.Libc Functions
+
 • isalpha
 • isdigit
 • isalnum
@@ -25,10 +27,10 @@ Re-create some standard C library functions including some additional ones that 
 • memcmp
 • strnstr
 • atoi
-# malloc() used to implement the following functions and additional functions:
+## malloc() used to implement the following functions and additional functions:
 • calloc
 • strdup
-# Additional functions:
+# 2. Additional functions:
 ft_substr
 ft_strjoin
 ft_strtrim
