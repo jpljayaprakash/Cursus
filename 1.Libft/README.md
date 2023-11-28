@@ -27,10 +27,10 @@ Re-create some standard C library functions including some additional ones that 
 • memcmp
 • strnstr
 • atoi
-## malloc() used to implement the following functions and additional functions:
+## 2. malloc() used to implement the following functions and additional functions:
 • calloc
 • strdup
-# 2. Additional functions:
+# Additional functions:
 •ft_substr
 •ft_strjoin
 •ft_strtrim
