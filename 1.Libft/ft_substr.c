@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlakshma <jlakshma@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jlakshma <jlakshma@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/24 15:09:18 by jlakshma          #+#    #+#             */
-/*   Updated: 2023/10/25 10:52:50 by jlakshma         ###   ########.fr       */
+/*   Updated: 2023/11/28 14:16:26 by jlakshma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		len = i;
 	dst = (char *)malloc(len + 1);
 	if (!dst)
-	{
-		errno = ENOMEM;
 		return (NULL);
-	}
 	i = 0;
 	while (i < len && s[start + i])
 	{

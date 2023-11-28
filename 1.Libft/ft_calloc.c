@@ -6,7 +6,7 @@
 /*   By: jlakshma <jlakshma@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/24 13:59:29 by jlakshma          #+#    #+#             */
-/*   Updated: 2023/10/25 14:13:57 by jlakshma         ###   ########.fr       */
+/*   Updated: 2023/11/28 13:54:40 by jlakshma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,15 +22,12 @@ void	*ft_calloc(size_t nitems, size_t size)
 		nitems = 1;
 		size = 1;
 	}
-	if (nitems > SIZE_MAX / size || nitems < 0 || size < 0)
+	if (nitems > SIZE_MAX / size)
 		return (NULL);
 	s = nitems * size;
 	rtn = (void *)malloc(s);
 	if (!rtn)
-	{
-		errno = ENOMEM;
 		return (NULL);
-	}
 	ft_memset(rtn, 0, (s));
 	return (rtn);
 }

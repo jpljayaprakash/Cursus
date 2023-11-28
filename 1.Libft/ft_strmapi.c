@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlakshma <jlakshma@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jlakshma <jlakshma@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/24 22:50:55 by jlakshma          #+#    #+#             */
-/*   Updated: 2023/10/25 19:43:21 by gharazka         ###   ########.fr       */
+/*   Updated: 2023/11/28 13:42:50 by jlakshma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,4 +52,3 @@ int	main(void)
 	free(result);
 	return (0);
 }*/
- 
